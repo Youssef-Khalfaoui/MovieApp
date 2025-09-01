@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0C0C0C;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Add this to your global CSS file (App.css or index.css) */
+
+/* Prevent horizontal scroll when sidebar is open */
+body.sidebar-open {
+  @media (max-width: 768px) {
+    overflow-x: hidden;
+  }
+}
+
+/* Smooth transition for all content when sidebar opens/closes */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix for potential layout shifts */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+@media (max-width: 600px) {
+  .TITLE {
+    font-size: 10px;
+  }
 }
