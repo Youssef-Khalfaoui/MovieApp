@@ -50,6 +50,15 @@ It features **trending content, genre-based browsing, region-based categories, a
 <p align="center">
   <img src="public/image.png" width="600" alt="Demo Screenshot" />
 </p>
+<p align="center">
+  <img src="public/{7582D0CE-37E4-4C4C-9570-8563FED74F46}.png" width="600" alt="Demo Screenshot" />
+</p>
+<p align="center">
+  <img src="public/{2ECC076B-D1E3-4EF9-A836-E54BC949F82D}.png" width="600" alt="Demo Screenshot" />
+</p>
+<p align="center">
+  <img src="public/{3A09E7D3-CF5C-4504-904D-1833FC3039FE}.png" width="600" alt="Demo Screenshot" />
+</p>
 
 ---
 
